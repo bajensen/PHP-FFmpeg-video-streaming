@@ -73,8 +73,8 @@ class DASHFilter extends FormatFilter
             "use_template"      => 1,
             "init_seg_name"     => $name . '_init_$RepresentationID$.$ext$',
             "media_seg_name"    => $name . '_chunk_$RepresentationID$_$Number%05d$.$ext$',
-            "seg_duration"      => $this->dash->getSegDuration(),
-            "hls_playlist"      => (int)$this->dash->isGenerateHlsPlaylist(),
+            "segment_time"      => $this->dash->getSegDuration(),
+            "hls_playlist_type" => (int)$this->dash->isGenerateHlsPlaylist(),
             "f"                 => "dash",
         ];
 
