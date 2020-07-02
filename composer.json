@@ -1,6 +1,6 @@
 {
-    "name": "aminyazdanpanah/php-ffmpeg-video-streaming",
-    "description": "📼 PHP FFMpeg - Video Streaming - DASH, HLS http://video.aminyazdanpanah.com",
+    "name": "bajensen/php-ffmpeg-video-streaming",
+    "description": "Fork from aminyazdanpanah/PHP-FFmpeg-video-streaming 📼 PHP FFMpeg - Video Streaming - DASH, HLS http://video.aminyazdanpanah.com",
     "type": "library",
     "keywords": [
         "dash",
